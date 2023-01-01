@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>ui/BottomBar/BottomBar.qml</file>
+        <file>ui/RightScreen/RightScreen.qml</file>
+        <file>ui/LeftScreen/LeftScreen.qml</file>
     </qresource>
 </RCC>
