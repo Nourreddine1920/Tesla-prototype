@@ -1,6 +1,5 @@
 import QtQuick 2.15
-import QtLocation 5.15
-import QtPositioning 5.15
+
 
 
 Rectangle{
@@ -11,6 +10,13 @@ Rectangle{
         right :  rightScreen.left
         bottom: bottomBar.top
     }
-    color : "orange"
+    color: "white"
+    Image {
+        id : car2
+        anchors.centerIn: parent
+        width: parent.width * .75
+        fillMode: Image.PreserveAspectFit
+        source: "qrc:/ui/assests/car2.jpeg"
+    }
     width : parent.width * 1/3
 }
