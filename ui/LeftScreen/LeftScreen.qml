@@ -14,7 +14,7 @@ Rectangle{
     Image {
         id : car2
         anchors.centerIn: parent
-        width: parent.width * .75
+        width: parent.width * .95
         fillMode: Image.PreserveAspectFit
         source: "qrc:/ui/assests/car2.jpeg"
     }
