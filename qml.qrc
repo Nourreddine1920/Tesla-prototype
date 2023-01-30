@@ -7,5 +7,6 @@
         <file>ui/assests/car.jpeg</file>
         <file>ui/assests/car2.jpeg</file>
         <file>ui/assests/car3.jpeg</file>
+        <file>ui/assests/electric-car.png</file>
     </qresource>
 </RCC>
