@@ -8,5 +8,7 @@
         <file>ui/assests/car2.jpeg</file>
         <file>ui/assests/car3.jpeg</file>
         <file>ui/assests/electric-car.png</file>
+        <file>ui/assests/lock.png</file>
+        <file>ui/assests/padlock-unlock.png</file>
     </qresource>
 </RCC>

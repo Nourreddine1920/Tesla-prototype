@@ -22,4 +22,17 @@ Rectangle{
         zoomLevel: 14
        }
     width : parent.width * 2/3
+    Image {
+        id : lockIcon
+        anchors{
+            left:parent.left
+            top: parent.top
+            margins:20
+            verticalCenter: parent.verticalCenter
+        }
+        width : parent.width / 15
+        fillMode: Image.PreserveAspectFit
+
+        source: "qrc:/ui/assests/lock.png"
+    }
 }

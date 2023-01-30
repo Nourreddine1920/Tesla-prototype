@@ -28,3 +28,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     Controllers/system.h
+
+DISTFILES += \
+    ui/assests/lock (1).png \
+    ui/assests/padlock-unlock.png

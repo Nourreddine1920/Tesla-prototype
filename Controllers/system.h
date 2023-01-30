@@ -13,13 +13,25 @@ public:
     explicit system(QObject *parent = nullptr);
 
     bool carLocked() const;
-    void setcarLocked(bool newCarLocked);
+    void setCarLocked(bool newCarLocked);
 
     int outdoorTemp() const;
-    void setoutdoorTemp(int newOutdoorTemp);
+    void setOutdoorTemp(int newOutdoorTemp)
+    {
+        if (m_outdoorTemp == newOutdoorTemp)
+            return;
+        m_outdoorTemp = newOutdoorTemp;
+        emit outdoorTempChanged();
+    }
 
     QString userName() const;
-    void setuserName(const QString &newUserName);
+    void setUserName(const QString &newUserName)
+    {
+        if (m_userName == newUserName)
+            return;
+        m_userName = newUserName;
+        emit userNameChanged();
+    }
 
 signals:
 
