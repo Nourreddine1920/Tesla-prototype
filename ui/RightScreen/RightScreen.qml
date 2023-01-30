@@ -28,9 +28,8 @@ Rectangle{
             left:parent.left
             top: parent.top
             margins:20
-            verticalCenter: parent.verticalCenter
         }
-        width : parent.width / 15
+        width : parent.width / 40
         fillMode: Image.PreserveAspectFit
 
         source: "qrc:/ui/assests/lock.png"
