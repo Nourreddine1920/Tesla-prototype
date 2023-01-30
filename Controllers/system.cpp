@@ -3,7 +3,8 @@
 system::system(QObject *parent)
     : QObject{parent},
       m_carLocked(true),
-      m_outdoorTemp(64)
+      m_outdoorTemp(64),
+      m_userName("Nouri")
 {
 
 }
